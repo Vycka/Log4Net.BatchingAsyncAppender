@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Pipeline\Readme.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Pipeline\Readme.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.9" />
+  </ItemGroup>
+
+</Project>
